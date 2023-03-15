@@ -1,3 +1,4 @@
-output "echo_text" {
-  value = module.echo.echo_text
+
+output "bastion_id" {
+  value = module.mod_bastion_host.bastion_id
 }
